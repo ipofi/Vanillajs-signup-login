@@ -46,7 +46,7 @@ sign_up.onsubmit = function (e) {
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
     xhr.send(JSON.stringify(jsondata));
     xhr.onerror = function () {
-      M.toast({ html: '', displayLength: '4000' });
+      M.toast({ html: 'Request failed', displayLength: '4000' });
     }
   }
 };
