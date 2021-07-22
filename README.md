@@ -11,7 +11,7 @@ $ npm install -g json-server
 ```
 
 ## Usage
-Create a <filename>.json file that would contain all the user data sent by the XMLHTTPRequest. For instance (db.json). Then run the following command in .vscode terminal to continually watch changes made to the database.
+Create a <filename>.json file that would contain all the user data sent by the XMLHTTPRequest if it does not exist. For instance (db.json). Then run the following command in .vscode terminal to continually watch changes made to the database.
 
 ```javascript
 $ json-server --watch db.json
