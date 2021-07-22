@@ -16,7 +16,7 @@ Create a <filename>.json file that would contain all the user data sent by the X
 ```javascript
 $ json-server --watch db.json
 ```
-
+Now we can open URL http://localhost:3000 in the browser to serve the files. :)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
