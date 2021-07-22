@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link rel="stylesheet" href="./materialize/css/materialize.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div>
+        <i class="medium material-icons">account_circle</i>
+    </div>
+    <div class="row">
+        <form class="col s2 offset-s5" id="sign_up" method="POST">
+            <div class="input-field">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-field">
+                <label for="name">First name</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div class="input-field">
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="surname">
+            </div>
+            <div class="input-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" pattern="[0-9A-Za-z]{4,8}" title="Atleast 4 digits - XZrgt3t4" >
+            </div>
+            <button class="btn waves-effect waves-light" type="submit">
+                Sign up
+            </button>
+            <div>
+                <a href="http://localhost:3000/sign_in.html" class="input-field">Sign in</a>
+            </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- <script src="./materialize/js/materialize.min.js"></script> -->
+    <script src="./js/sign_up.js"></script>
+</body>
+</html>

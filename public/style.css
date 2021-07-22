@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+body {
+    background-color: #f1f1f1e1;
+    text-align: center;
+}
+
+i {
+    margin-top: 10vh;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
